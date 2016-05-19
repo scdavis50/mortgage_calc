@@ -9,14 +9,13 @@ hitheme     : tomorrow      #
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
----
 
+---
 ## Problem
 
 With widespread recovery in the housing markets, people are actively re-entering the home purchase market.
 
-Buyers need a good resource to evaluate the affordability of loans -- many mortgage calculators just show the mortgage payment.
-
+Buyers need a good resource to evaluate the affordability of loans; many mortgage calculators just show the mortgage payment.
 
 ---
 
@@ -24,7 +23,7 @@ Buyers need a good resource to evaluate the affordability of loans -- many mortg
 
 The full monthly cost of a mortgage is known as the "PITI" payment - principal and interest (mortgage), property taxes and property casualty insurance.
 
-This is a quick calculator, accessible remotely, that prospective purchasers could use to quickly calculate their actual monthly mortgage cost.
+
 ---
 
 ## Submitted Solution
@@ -47,8 +46,10 @@ and the insurance payment portion:
 round(((2/100)*250000)/12,2)
 ```
 
-So a prospective buyer could expect a monthly mortgage payment of `r 1199.10 + 729.17 + 416.67`
- ---
+So a prospective buyer could expect a monthly mortgage payment of `r 1199.10 + 729.17 + 
+416.67`
+
+---
 
 ## Thanks and feedback location
 
